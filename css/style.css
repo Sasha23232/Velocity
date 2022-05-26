@@ -1,0 +1,488 @@
+@import url(reset.css);
+
+/* common style */
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+}
+
+.wrapper-inner {
+    max-width: 970px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+
+
+/* reusable styles */
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.btn-blue {
+    background: #69B9FF;
+    border-color: #69B9FF;
+
+}
+
+.section-title {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+.section-subtitle {
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+    padding-top: 17px;
+}
+
+h3 {
+    font-size: 31px;
+    line-height: 36px;
+    text-align: center;
+    color: #676770;
+    padding: 16px;
+}
+
+/* ==================================================================================== */
+
+/* header start======================================================================== */
+.header {
+    background-color: #fff;
+    padding-top: 11px;
+    padding-bottom: 24px;
+}
+
+.logo a {
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #69B9FF;
+}
+
+.menu a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #676770;
+    transition: color .3s;
+}
+
+.menu a:hover {
+    color: #0082F3;
+}
+
+.menu .active a {
+    color: #0082F3;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    padding-right: 40px;
+}
+
+.header .wrapper-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ========================================================================= */
+
+/* banner start============================================================= */
+.banner-text h1 {
+    font-size: 59px;
+    line-height: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 106px;
+    color: #fff;
+}
+
+label{
+    white-space: nowrap;
+}
+
+.banner .wrapper-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    padding-top: 184px;
+    padding-bottom: 200px;
+    background-image: url(../img/Banner.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .btn-blue {
+    margin-right: 20px;
+}
+
+.btn-blue {
+    border-radius: 3px;
+    background: #69B9FF;
+}
+
+/* Banner end =========================================================================*/
+
+/* What we do start==================================================================== */
+.what_we_do {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.div-text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+    padding-top: 17px;
+}
+
+.design {
+    flex: 1 1 300px;
+}
+
+.design-text {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-top: 62px;
+}
+
+.design img {
+    width: 94px;
+    height: 94px;
+    object-fit: cover;
+}
+
+.design-title {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #676770;
+    padding-top: 19px;
+    padding-bottom: 14px;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #6A859C;
+}
+
+.design {
+    background: #FFFFFF;
+    border: 1px solid #c4d4e2;
+    border-radius: 5px;
+    padding: 24px 16px;
+}
+
+/* What We Do End============================================================ */
+
+/* Service start============================================================= */
+
+.services .section-title {
+    margin-bottom: 17px;
+}
+
+.services .section-subtitle {
+    margin-bottom: 77px;
+}
+
+.service-cards {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.services {
+    text-align: center;
+    padding-bottom: 96px;
+    background-color: #192024;
+    padding-top: 80px;
+}
+
+.services-section-title {
+    color: #FFFFFF;
+}
+
+.card-title {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.card {
+    flex: 1 1 460px;
+    padding: 15px;
+}
+
+.card-text {
+    line-height: 25px;
+    padding-bottom: 27px;
+}
+
+.services a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+/* Services End======================================================================================== */
+
+/* Tabs start =========================================================================================*/
+
+.tabs {
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 90px;
+    padding-top: 80px;
+}
+
+.tab-button {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #92A0AD;
+    border-radius: 4px;
+    margin-bottom: 55px;
+    padding: 1px 30px;
+    margin-right: 16px;
+}
+
+
+.tab-subtitle {
+    margin-bottom: 75px;
+}
+
+.tabs-section p {
+    line-height: 25px;
+    color: #6A859C;
+}
+
+.tabs-section input {
+    display: none;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 53px;
+}
+
+#tab1:checked~.tab-content1,
+#tab2:checked~.tab-content2,
+#tab3:checked~.tab-content3 {
+    display: block;
+}
+
+/* Tab end======================================================================== */
+
+/* Footer start=================================================================== */
+
+.footer-title {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+.footer a {
+    line-height: 25px;
+    color: #6A859C;
+    display: block;
+}
+
+.footer {
+    padding-top: 35px;
+}
+
+h4 {
+    padding-bottom: 20px;
+}
+
+.footer .wrapper-inner {
+    display: flex;
+    max-width: 990px;
+    padding-bottom: 40px;
+}
+
+.footer-cards {
+    flex: 1 1 320px;
+}
+
+.footer-card2 a {
+    border-bottom: 1px solid #D5D5E0;
+    padding-bottom: 11px;
+    margin-right: 20px;
+}
+
+.velocity-inc {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #9E9E9E;
+    padding: 40px 0;
+    background-color: #383838;
+}
+
+.footer-card1 {
+    padding-right: 20px;
+}
+
+.footer img {
+    display: block;
+}
+
+.footer-contacts {
+    display: flex;
+    border-bottom: 1px solid #D5D5E0;
+    padding-bottom: 11px;
+}
+
+.footer img {
+    margin-right: 10px;
+}
+
+/* media queries */
+
+@media (max-width: 800px) {
+    .banner-text h1 {
+        font-size: 45px;
+    }
+
+    .design-text {
+        display: block;
+    }
+
+    .design {
+        margin-bottom: 20px;
+    }
+
+    .design:last-child {
+        margin-bottom: 0;
+    }
+
+    .service-cards {
+        display: block;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer .wrapper-inner {
+        flex-wrap: wrap;
+    }
+
+    .footer-card1 {
+        flex: 1 1 auto;
+        margin-bottom: 40px;
+    }
+
+    .footer-card2,
+    .footer-card3 {
+        flex: 1 1 50%;
+    }
+
+    .tabs-section label span {
+        display: none;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .footer .wrapper-inner {
+        display: block;
+    }
+
+    .footer-card2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner-text h1 {
+        margin-bottom: 70px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .banner {
+        padding: 100px 0;
+    }
+}
+@media (max-width: 450px) {
+    .btn{
+        padding: 10px 20px;
+    }
+    .menu ul li{
+        padding-right: 0;
+        margin-left: 10px;
+    }
+    .tabs-section label{
+        padding: 1px 15px;
+    }
+}
